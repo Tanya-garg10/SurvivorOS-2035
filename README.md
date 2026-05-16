@@ -4,15 +4,11 @@
 
 **SurvivorOS 2035** is a high-fidelity, AI-powered cyberpunk survival simulator built for the **PIXEL GEMINI 2.0 Hackathon**. It immerses users in a future where Artificial Intelligence has transformed every aspect of human life—jobs, social structures, and mental stability.
 
----
-
 ## 🚀 The Vision
 
 > "We didn’t want users to just use AI — we wanted them to emotionally experience a future shaped by AI."
 
 In 2035, AI isn't a tool; it's the environment. This simulator uses **Llama-3.3 (via Groq)** to generate dynamic, personalized scenarios based on your real-world profession and skills, challenging you to make life-altering decisions in a world beyond human control.
-
----
 
 ## 🔥 Key Features
 
@@ -34,8 +30,6 @@ Experience the world through a "Social Media" lens. See fake posts from other ci
 ### 6. 🎬 Branching Endings
 The simulation doesn't just end—it evaluates your entire journey to provide a cinematic conclusion, detailing your fate and recommending "Future-Proof Skills" to learn in reality.
 
----
-
 ## 🛠️ Tech Stack
 
 - **Framework**: [Next.js 15+](https://nextjs.org/) (App Router)
@@ -44,8 +38,6 @@ The simulation doesn't just end—it evaluates your entire journey to provide a 
 - **AI Engine**: [Groq SDK](https://groq.com/) (Llama-3.3-70b-versatile)
 - **Icons**: [Lucide React](https://lucide.dev/)
 - **Design System**: Custom Cyberpunk UI with glassmorphism, scanlines, and CRT flicker effects.
-
----
 
 ## 🚦 Getting Started
 
@@ -80,20 +72,9 @@ The simulation doesn't just end—it evaluates your entire journey to provide a 
 5. **Initialize Simulation**
    Open [http://localhost:3000](http://localhost:3000) and prepare to survive.
 
----
-
-## 🌌 Project Aesthetics
-
-- **Visuals**: Neon Cyan, Purple, and Red color palette with deep slate backgrounds.
-- **Intro**: Cinematic boot sequence mimicking a 2035 terminal initialization.
-- **Dashboard**: 5-column grid layout for a "command center" feel.
-
----
 
 ## 📜 License
 This project is licensed under the MIT License.
-
----
 
 ### Built with ❤️ for PIXEL GEMINI 2.0
 > *"Initializing Humanity Survival Protocol..."*
