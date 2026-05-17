@@ -8,12 +8,12 @@
 
 > "We didn’t want users to just use AI — we wanted them to emotionally experience a future shaped by AI."
 
-In 2035, AI isn't a tool; it's the environment. This simulator uses **Llama-3.3 (via Groq)** to generate dynamic, personalized scenarios based on your real-world profession and skills, challenging you to make life-altering decisions in a world beyond human control.
+In 2035, AI isn't a tool; it's the environment. This simulator uses **Google Gemini** to generate dynamic, personalized scenarios based on your real-world profession and skills, challenging you to make life-altering decisions in a world beyond human control.
 
 ## 🔥 Key Features
 
 ### 1. 🤖 AI-Powered Scenario Engine
-Every simulation is unique. Using advanced prompt engineering and the ultra-fast Groq SDK, the system synthesizes realistic AI-disruption events tailored to your profile.
+Every simulation is unique. Using advanced prompt engineering and the powerful Google Gemini API, the system synthesizes realistic AI-disruption events tailored to your profile.
 
 ### 2. 🧠 Personality Archetype Evolution
 The AI tracks your decision history and evolves your "Archetype." Are you a **Digital Rebel**, a **Pragmatic Survivor**, or an **AI Loyalist**? Your choices define your legacy.
@@ -35,7 +35,7 @@ The simulation doesn't just end—it evaluates your entire journey to provide a 
 - **Framework**: [Next.js 15+](https://nextjs.org/) (App Router)
 - **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
 - **Animations**: [Framer Motion](https://www.framer.com/motion/)
-- **AI Engine**: [Groq SDK](https://groq.com/) (Llama-3.3-70b-versatile)
+- **AI Engine**: [Google Gemini API](https://ai.google.dev/)
 - **Icons**: [Lucide React](https://lucide.dev/)
 - **Design System**: Custom Cyberpunk UI with glassmorphism, scanlines, and CRT flicker effects.
 
@@ -43,7 +43,7 @@ The simulation doesn't just end—it evaluates your entire journey to provide a 
 
 ### Prerequisites
 - Node.js 18+
-- A [Groq API Key](https://console.groq.com/)
+- A [Google Gemini API Key](https://aistudio.google.com/)
 
 ### Installation
 
@@ -61,7 +61,7 @@ The simulation doesn't just end—it evaluates your entire journey to provide a 
 3. **Set up Environment Variables**
    Create a `.env.local` file in the root:
    ```env
-   GROQ_API_KEY=your_groq_api_key_here
+   GEMINI_API_KEY=your_gemini_api_key_here
    ```
 
 4. **Run the Development Server**
