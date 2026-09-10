@@ -2,9 +2,9 @@ services:
   - type: web
     name: survivor-os-2035
     env: node
-    buildCommand: npm run build
+    buildCommand: npm install && npm run build
     startCommand: npm start
     envVars:
-      - key: GEMINI_API_KEY
+      - key: GROQ_API_KEY
         sync: false
     plan: free
