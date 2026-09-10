@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: survivor-os-2035
+    env: node
+    buildCommand: npm install
+    startCommand: npm run build && npm start
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+    plan: free
