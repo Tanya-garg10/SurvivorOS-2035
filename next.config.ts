@@ -4,7 +4,6 @@ const nextConfig: NextConfig = {
   /* config options here */
   reactCompiler: false, // Disabled for low-memory environments
   // Optimize for low-memory environments
-  swcMinify: true,
   compress: true,
   // Disable experimental features that consume memory
   experimental: {
