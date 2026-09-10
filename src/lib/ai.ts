@@ -76,7 +76,7 @@ export async function generateScenario(profile: UserProfile, stats: SurvivalStat
 
   const chatCompletion = await groq.chat.completions.create({
     messages: [{ role: "system", content: systemPrompt }, { role: "user", content: userPrompt }],
-    model: "llama-3.3-70b-versatile",
+    model: "llama-3.1-70b-versatile",
     response_format: { type: "json_object" },
     temperature: 0.7,
   });
@@ -101,7 +101,7 @@ export async function generateEnding(profile: UserProfile, stats: SurvivalStats,
 
   const chatCompletion = await groq.chat.completions.create({
     messages: [{ role: "user", content: prompt }],
-    model: "llama-3.3-70b-versatile",
+    model: "llama-3.1-70b-versatile",
     response_format: { type: "json_object" },
   });
 
