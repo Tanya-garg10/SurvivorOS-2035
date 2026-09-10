@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: survivor-os-2035
+    env: node
+    buildCommand: npm run build
+    startCommand: npm start
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+    plan: free
